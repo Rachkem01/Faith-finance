@@ -1,5 +1,5 @@
 
-import churchIcon from '/image (1).png'
+import churchIcon from '/Image (1).png'
 
 import profile from '/profile_image.png'
 
