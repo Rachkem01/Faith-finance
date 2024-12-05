@@ -1,7 +1,7 @@
 
-import churchIcon from './image (1).png'
+import churchIcon from '../assets/image (1).png'
 
-import profile from './profile_image.png'
+import profile from '../assets/profile_image.png'
 
 export const images = {
     churchIcon,
