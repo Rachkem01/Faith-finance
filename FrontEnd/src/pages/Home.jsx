@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Search from '../components/Search'
 import Chart1 from '../components/Chart1.jsx'
-import { images } from '../assets/image.js'
+import { images } from '../../public/image.js'
 import {MdArrowForward} from 'react-icons/md'
 const Home = () => {
   return (
