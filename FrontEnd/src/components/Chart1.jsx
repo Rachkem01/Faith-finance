@@ -5,7 +5,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 const Chart1 = () => {
 
   return (
-    <div className='md:block ml-[-30px] hidden lg:block bg-gray-100 rounded-lg w-[550px]'>
+    <div className='ml-[-30px] hidden bg-gray-100 rounded-lg w-[500px] lg:ml-[20px] xl:block'>
     
   <BarChart
   xAxis ={[{scaleType:'band', dataKey:'month',
@@ -38,7 +38,7 @@ dataset={[
   { month: "November", expenses: 9.8 },
   { month: "December", expenses: 9 },
 ]}
-  width={550}
+  width={500}
   height={400}
   borderRadius={10}
   

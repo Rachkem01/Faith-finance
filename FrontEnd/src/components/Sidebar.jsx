@@ -12,7 +12,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className=' fixed bg-gray-300 w-[80px] h-[100vh] flex flex-col gap-[30px] pl-[20px] pt-[20px] cursor-pointer lg:w-[200px] md:w-[200px]'>
+    <div className=' fixed bg-gray-300 h-[1000vh] flex flex-col gap-[30px] pl-[20px] pt-[20px] cursor-pointer lg:w-[150px] md:w-[140px] xxs:w-[80px] sm:w-[80px] sm:gap-[100px] xxs:gap-[120px] md:gap-[50px] xl:w-[200px] xl:text-[20px]'>
    <div className='flex gap-[20px] '><MdHome className='text-gray-600  text-2xl hover:text-[#0d47a1]'/><span className='text-gray-600 hidden md:block lg:block  hover:text-[#0d47a1]'>Dashboard</span></div>
   <div className='flex gap-[20px]'> <MdCalendarMonth className='text-gray-600  text-2xl hover:text-[#0d47a1]'/><span className='text-gray-600 hover:text-[#0d47a1] hidden md:block lg:block'>Income</span></div>
 <div className='flex gap-[20px]'><MdAppRegistration className='text-gray-600  text-2xl hover:text-[#0d47a1]'/><span className='text-gray-600  hover:text-[#0d47a1] hidden md:block lg:block'>Attendance</span></div>

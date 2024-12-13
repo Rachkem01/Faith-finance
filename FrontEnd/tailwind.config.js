@@ -11,6 +11,12 @@ export default {
       },
       animation:{
         'spin-slow':'spin 10s linear infinite'
+      },
+      zIndex:{
+        negative:'-1'
+      },
+      screens:{
+        'xxs':'320px'
       }
     },
   },
